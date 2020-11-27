@@ -2,7 +2,7 @@ function getCompoChartInfos(rows,i,j) {
 
     var datas = {}
     datas.data=[]
-  
+
     datas.title = rows[i+0][j+1]
     datas.xTitle = rows[i+1][j+1]
     datas.yTitle = rows[i+2][j+1]

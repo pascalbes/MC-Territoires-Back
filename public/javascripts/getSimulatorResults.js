@@ -195,27 +195,6 @@ function getSimulatorResults(rows) {
         title: getCompoChartInfos(rows,169,0).data.title,
         legendData: getCompoChartInfos(rows,169,0).graphDatas
     }
-
-    completeResults.economie.graphs[1]={
-        graphData: getCompoChartInfos(rows,182,0),
-        subtitle: rows[189][1],
-        graphText: rows[190][1],
-        source: rows[192][1],
-        graphType: "CompoChart",
-        title: getCompoChartInfos(rows,182,0).data.title,
-        legendData: getCompoChartInfos(rows,182,0).graphDatas
-    }
-
-    completeResults.economie.graphs[2]={
-        graphData: getCompoChartInfos(rows,195,0),
-        subtitle: rows[202][1],
-        graphText: rows[203][1],
-        source: rows[204][1],
-        graphType: "CompoChart",
-        title: getCompoChartInfos(rows,195,0).data.title,
-        legendData: getCompoChartInfos(rows,195,0).graphDatas
-    }
-
     
     
 
