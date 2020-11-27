@@ -78,11 +78,6 @@ function getSimulatorResults(rows) {
             title: rows[109][0],
             intro: rows[110][1],
             graphs: []
-        },
-        economie: {
-            title: rows[167][0],
-            intro: rows[168][1],
-            graphs: []
         }
     };
 
